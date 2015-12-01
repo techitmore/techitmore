@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Computer Essentials</title>
+	<!--Bootstrap-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+	<!-- Materialize-->
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+	 <!-- Compiled and minified JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>	
+<body>
+
+	<nav class="navbar navbar-default">
+			<div class="container-fluid">
+
+				<!--Logo-->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href"#" class="navbar-brand">Computer Essentials</a>
+				</div>	
+
+				<!--Menu Items-->
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="createpage.html">create</a></li>
+						<li><a href="#">Page 3</a></li>
+
+						<!--Drop down menu-->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Page 4<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Stuff 1</a></li>
+								<li><a href="#">Stuff 2</a></li>
+								<li><a href="#">Stuff 3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+
+			<div class="row">
+			    <form class="col s12" action="contactformproccess.php">
+			      <div class="row">
+			        <div class="input-field col s6">
+			          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+			          <label for="first_name">First Name</label>
+			        </div>
+			        <div class="input-field col s6">
+			          <input id="last_name" type="text" class="validate">
+			          <label for="last_name">Last Name</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="input-field col s12">
+			          <input id="email" type="email" class="validate">
+			          <label for="email">Email</label>
+			        </div>
+			      </div>
+			    <input class="btn waves-effect waves-light" type="submit" value="Submit">
+			    </form>
+			  </div>
+
+		</div>
+
+</body>
+</html>
