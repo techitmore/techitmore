@@ -1,0 +1,49 @@
+.classWithPad{ 
+	margin:12px; 
+	padding:12px; 
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+/*sticky footer*/
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main {
+flex: 1 0 auto;
+}
+
+
+/*badges*/
+
+/*blank badge*/
+div.badge.blank{
+	font-weight:300;
+	font-size:0.8rem;
+	color:#fff;
+	background-color:
+	#26a69a;border-radius:2px
+}
+span.badge.blank:after{
+	content:""
+}
+
+/*"by" badge*/
+div.badge.by{
+	font-weight:300;
+	font-size:0.8rem;
+	color:#fff;
+	background-color:
+	#26a69a;border-radius:2px
+}
+span.badge.by:after{
+	content:"by "
+}
