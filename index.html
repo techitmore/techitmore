@@ -17,214 +17,201 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+  	<!--Google-->
+  	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+<!-- Simple header with scrollable tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+	    <div class="mdl-layout__header-row">
+	      <!-- Title -->
+	      <span class="mdl-layout-title">Computer Essentials</span>
+	    </div>
+	    <!-- Tabs -->
+	    <div class="mdl-layout__tab-bar">
+	      <a href="index.html" class="mdl-layout__tab waves-effect waves-light grey-text text-lighten-2" style="text-decoration:none">Home</a>
+	      <a href="createpage.html" class="mdl-layout__tab waves-effect waves-light grey-text text-lighten-2" style="text-decoration:none">Create</a>
+	      <a href="#scroll-tab-3" class="mdl-layout__tab waves-effect waves-light grey-text text-lighten-2" style="text-decoration:none">Browse</a>
+	    </div>
+    </header>
+    <div class="mdl-layout__drawer">
+    	<span class="mdl-layout-title">Title</span>
+    </div>
+</div>
 
-			<!--Logo-->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href"#" class="navbar-brand">Computer Essentials</a>
-			</div>	
+<div class="container-fluid">
+	
+	<center><img src="image.png" class="img-responsive"></center>
 
-			<!--Menu Items-->
-			<div class="collapse navbar-collapse" id="mainNavBar">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="createpage.html">Create</a></li>
+	<div class="row">
 
-					<!--Drop down menu-->
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Websites</a></li>
-							<li><a href="#">Art</a></li>
-							<li><a href="#">Computer Programs</a></li>
-							<li><a href="#">Games</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
+			<div class="progress">
+      			<div class="indeterminate"></div>
+  			</div>
+
+    </div>
+
+    
+
+	<div class="row">
+
+		<!--first column-->
+		<div class = "col-md-4">
+
+			<div class="classWithPad" align="center">
+				<div class="card medium">
+		            <div class="card-image">
+			            <img src="placeholder.png">
+			            <span class="card-title">Card Title</span>
+			        </div>
+		            <div class="card-content">
+
+
+		            	<div class="row">
+			            	<div class="col-md-10 alignleft">	
+			            		<p>Here we would post new information.</p>
+			            	</div>
+			            	<div class="blank badge">test</div>
+			            </div>
+
+
+		            </div>
+		            <div class="card-action">
+		            	<a>Check out their site:</a>
+		            	<a href="#" class="waves-effect waves-light btn green"><i class="material-icons">web</i></a>
+		            </div>
+		         </div>
+		    </div>
+
+		</div>	
+
+		<!--second column-->
+		<div class = "col-md-4">
+
+			<div class="classWithPad" align="center">
+				<div class="card medium">
+		            <div class="card-image">
+			            <img src="placeholder.png">
+			            <span class="card-title">Card Title</span>
+			        </div>
+		            <div class="card-content">
+
+
+			            <div class="row">
+			            	<div class="col-md-10 alignleft">	
+			            		<p>Here we would post new information.</p>
+			            	</div>
+			            	<div class="blank badge">test</div>
+			            </div>
+
+		            </div>
+		            <div class="card-action">
+		            	<a>Check out their site:</a>
+		            	<a href="#" class="waves-effect waves-light btn green"><i class="material-icons">web</i></a>
+		            </div>
+		         </div>
+		    </div>
+
 		</div>
-	</nav>
 
+		<!--third column-->
+		<div class = "col-md-4">
 
+			<div class="classWithPad" align="center">
+				<div class="card medium">
+		            <div class="card-image">
+			            <img src="placeholder.png">
+			            <span class="card-title">Card Title</span>
+			        </div>
+		            <div class="card-content">
+			            
 
-	<div class="container-fluid">
-		
-		<center><img src="image.png" class="img-responsive"></center>
+			            <div class="row">
+			            	<div class="col-md-10 alignleft">	
+			            		<p>Here we would post new information.</p>
+			            	</div>
+			            	<div class="blank badge">test</div>
+			            </div>
+
+		            </div>
+		            <div class="card-action">
+		            	<a>Check out their site:</a>
+		            	<a href="#" class="waves-effect waves-light btn green"><i class="material-icons">web</i></a>
+		            </div>
+		         </div>
+		    </div>
+
+		</div>
 
 		<div class="row">
 
-				<div class="progress">
-	      			<div class="indeterminate"></div>
-	  			</div>
 
-        </div>
+				<div class="col-md-3" align="center">
+					<div class="classWithPad" align="center">
+						<i class="material-icons medium">sort_by_alpha</i>
+						<br>
+						<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
+					</div>
+				</div>
 
-        
+				<div class="col-md-3" align="center">
+					<div class="classWithPad" align="center">
+						<i class="material-icons medium">new_releases</i>
+						<br>
+						<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
+					</div>
+				</div>
+
+				<div class="col-md-3" align="center">
+					<div class="classWithPad" align="center">
+						<i class="material-icons medium">assessment</i>
+						<br>
+						<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
+					</div>
+				</div>
+
+				<div class="col-md-3" align="center">
+					<div class="classWithPad" align="center">
+						<i class="material-icons medium">trending_up</i>
+						<br>
+						<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
+					</div>
+				</div>
+			
+		</div>
+
 
 		<div class="row">
-
-			<!--first column-->
-			<div class = "col-md-4">
-
-				<div class="classWithPad" align="center">
-					<div class="card medium">
-			            <div class="card-image">
-				            <img src="placeholder.png">
-				            <span class="card-title">Card Title</span>
-				        </div>
-			            <div class="card-content">
-
-
-			            	<div class="row">
-				            	<div class="col-md-10 alignleft">	
-				            		<p>Here we would post new information.</p>
-				            	</div>
-				            	<div class="blank badge">test</div>
-				            </div>
-
-
-			            </div>
-			            <div class="card-action">
-			            	<a>Check out their site:</a>
-			            	<a href="#" class="waves-effect waves-light btn green"><i class="material-icons">web</i></a>
-			            </div>
-			         </div>
-			    </div>
-
-			</div>	
-
-			<!--second column-->
-			<div class = "col-md-4">
-
-				<div class="classWithPad" align="center">
-					<div class="card medium">
-			            <div class="card-image">
-				            <img src="placeholder.png">
-				            <span class="card-title">Card Title</span>
-				        </div>
-			            <div class="card-content">
-
-
-				            <div class="row">
-				            	<div class="col-md-10 alignleft">	
-				            		<p>Here we would post new information.</p>
-				            	</div>
-				            	<div class="blank badge">test</div>
-				            </div>
-
-			            </div>
-			            <div class="card-action">
-			            	<a>Check out their site:</a>
-			            	<a href="#" class="waves-effect waves-light btn green"><i class="material-icons">web</i></a>
-			            </div>
-			         </div>
-			    </div>
+			<div class="col-md-2">
 
 			</div>
-
-			<!--third column-->
-			<div class = "col-md-4">
-
-				<div class="classWithPad" align="center">
-					<div class="card medium">
-			            <div class="card-image">
-				            <img src="placeholder.png">
-				            <span class="card-title">Card Title</span>
-				        </div>
-			            <div class="card-content">
-				            
-
-				            <div class="row">
-				            	<div class="col-md-10 alignleft">	
-				            		<p>Here we would post new information.</p>
-				            	</div>
-				            	<div class="blank badge">test</div>
-				            </div>
-
-			            </div>
-			            <div class="card-action">
-			            	<a>Check out their site:</a>
-			            	<a href="#" class="waves-effect waves-light btn green"><i class="material-icons">web</i></a>
-			            </div>
-			         </div>
-			    </div>
+			<div class="col-md-8">
+				<ul class="collection with-header dismissable">
+						<li class="collection-header"><h4>Meet the team</h4></li>
+					    <li class="collection-item avatar">
+					      <img src="profilepic.PNG" class="circle img-responsive">
+					      <span class="title">Title</span>
+					      <p>
+					      	<div class="blank badge" align="left">Owner</div>
+					      	<br>
+					        Second Line
+					      </p>
+					    </li>
+			    </ul>
+			</div>
+			<div class="col-md-2">
 
 			</div>
-
-			<div class="row">
-
-
-					<div class="col-md-3" align="center">
-						<div class="classWithPad" align="center">
-							<i class="material-icons medium">sort_by_alpha</i>
-							<br>
-							<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
-						</div>
-					</div>
-
-					<div class="col-md-3" align="center">
-						<div class="classWithPad" align="center">
-							<i class="material-icons medium">new_releases</i>
-							<br>
-							<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
-						</div>
-					</div>
-
-					<div class="col-md-3" align="center">
-						<div class="classWithPad" align="center">
-							<i class="material-icons medium">assessment</i>
-							<br>
-							<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
-						</div>
-					</div>
-
-					<div class="col-md-3" align="center">
-						<div class="classWithPad" align="center">
-							<i class="material-icons medium">trending_up</i>
-							<br>
-							<p align="center">Here we will say some more stuff. Here we will say some more stuff. Here we will say some more stuff.</p>
-						</div>
-					</div>
-				
-			</div>
-
-
-			<div class="row">
-				<div class="col-md-2">
-
-				</div>
-				<div class="col-md-8">
-					<ul class="collection with-header dismissable">
-							<li class="collection-header"><h4>Meet the team</h4></li>
-						    <li class="collection-item avatar">
-						      <img src="profilepic.PNG" class="circle img-responsive">
-						      <span class="title">Title</span>
-						      <p>
-						      	<div class="blank badge" align="left">Owner</div>
-						      	<br>
-						        Second Line
-						      </p>
-						    </li>
-				    </ul>
-				</div>
-				<div class="col-md-2">
-
-				</div>
-			</div>
-
 		</div>
+
 	</div>
+</div>
 
 
 		<br>
