@@ -47,3 +47,9 @@ div.badge.by{
 span.badge.by:after{
 	content:"by "
 }
+.carousel-indicators li {
+  background-color: #00C957;
+}
+.carousel-indicators .active {
+  background-color: #009ACD;
+}
