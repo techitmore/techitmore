@@ -3,6 +3,11 @@
 	padding:12px; 
 }
 
+.classWithPadsmall{ 
+	margin-left:15px;
+	margin-right:15px;
+}
+
 .alignright {
 	float: right;
 }
@@ -36,6 +41,18 @@ span.badge.blank:after{
 	content:""
 }
 
+/*website badge*/
+div.badge.website{
+	font-weight:300;
+	font-size:0.8rem;
+	color:#fff;
+	background-color:
+	#4CBB17	;border-radius:2px
+}
+div.badge.website:after{
+	content:"website"
+}
+
 /*"by" badge*/
 div.badge.by{
 	font-weight:300;
@@ -44,9 +61,46 @@ div.badge.by{
 	background-color:
 	#26a69a;border-radius:2px
 }
-span.badge.by:after{
+div.badge.by:before{
 	content:"by "
 }
+
+/*"art" badge*/
+div.badge.art{
+	font-weight:300;
+	font-size:0.8rem;
+	color:#fff;
+	background-color:
+	#9B30FF;border-radius:2px
+}
+div.badge.art:before{
+	content:"web art"
+}
+
+/*"products" badge*/
+div.badge.products{
+	font-weight:300;
+	font-size:0.8rem;
+	color:#fff;
+	background-color:
+	#FF6103;border-radius:2px
+}
+div.badge.products:before{
+	content:"products"
+}
+
+/*"Games" badge*/
+div.badge.games{
+	font-weight:300;
+	font-size:0.8rem;
+	color:#fff;
+	background-color:
+	#009ACD;border-radius:2px
+}
+div.badge.games:before{
+	content:"games"
+}
+
 .carousel-indicators li {
   background-color: #00C957;
 }
