@@ -29,17 +29,15 @@
 }
 
 .btn-outline-blue{
-    border: 1px solid #00C5CD;
+    border: 1px solid #22A7F0;
 }
 
-/*sticky footer*/
-body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+.btn-outline-red{
+    border: 1px solid #FF0000;
 }
-main {
-flex: 1 0 auto;
+
+.btn-outline-yellow{
+    border: 1px solid #F7CA18;
 }
 
 
