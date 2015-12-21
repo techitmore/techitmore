@@ -16,6 +16,21 @@
 	float: left;
 }
 
+.btn-outline-green{
+    border: 1px solid #78AB46;
+}
+
+.btn-outline-purple{
+    border: 1px solid #6f5499;
+}
+
+.btn-outline-orange{
+    border: 1px solid #FF7216;
+}
+
+.btn-outline-teal{
+    border: 1px solid #008080;
+}
 
 /*sticky footer*/
 body {
