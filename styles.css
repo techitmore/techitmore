@@ -120,3 +120,19 @@ div.badge.games:before{
 .carousel-indicators .active {
   background-color: #009ACD;
 }
+
+.card-action-modified{
+	border-top:1px solid rgba(160,160,160,0.2);
+	padding:20px
+}
+.card-action-modified{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1;
+	background-color:inherit
+}
+.card-action-modified a:hover{
+	color:#ffd8a6
+}
