@@ -40,17 +40,6 @@
     border: 1px solid #F7CA18;
 }
 
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-
 /*badges*/
 
 /*blank badge*/
