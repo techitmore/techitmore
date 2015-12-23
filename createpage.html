@@ -71,7 +71,53 @@
 			<center><a href="https://accounts.google.com/ServiceLogin" class="waves-effect waves-light btn-large green" style="text-decoration:none"><i class="material-icons right">settings</i><b>Sign in</b></a></center>
 			<br>
 
-			<iframe src="https://docs.google.com/forms/d/1CI7_cAlAEdWCGUAADLYg_xY66albXhNuv-Mb7XPNrlU/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			
+			<div class="row">
+			    <form class="col s12">
+			        <div class="row">
+			            <div class="input-field col s6">
+				            <input id="company_name" type="text" class="validate">
+				            <label for="company_name">Name of company</label>
+			            </div>
+				        <div class="input-field col s6">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Project name</label>
+				        </div>
+			        </div>
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea id="Description" class="materialize-textarea"></textarea>
+							<label for="Description">Description</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<select>
+								<option value="" disabled selected>Choose your category</option>
+								<option value="1">Website</option>
+								<option value="2">Web Art</option>
+								<option value="3">Product</option>
+								<option value="4">Game</option>
+								<option value="5">Animation</option>
+								<option value="6">App</option>
+								<option value="7">Program</option>
+							</select>
+						    <label>Materialize Select</label>
+						</div>
+					</div>
+					<div class="row">
+				      	<div class="file-field input-field">
+					        <div class="btn">
+						        <span>Photo</span>
+						        <input type="file">
+					        </div>
+					        <div class="file-path-wrapper">
+								<input class="file-path validate" type="text">
+					        </div>
+					    </div>
+					</div>
+			    </form>
+			</div>
 
 		</div>
 
